@@ -33,8 +33,8 @@ nav {
     font-size: 23px;
 }
 
-.menu a {
-    padding-right: 75px;
+.menu a { 
+    padding-right: 15px;
     text-decoration: none;
     color: white;
     font-family: 'kanit';
@@ -64,7 +64,7 @@ nav {
 .hero h1 {
     font-family: 'kanit';
     font-weight: 800;
-    font-size: 65px;
+    font-size: 46px;
     color: rgb(7, 7, 7);
 }
 
@@ -75,7 +75,6 @@ nav {
 
 .golink {
     padding-top: 40px;
-    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +93,7 @@ nav {
 
 .linktour a {
     font-family: 'kanit';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     text-decoration: none;
     color: white;
@@ -116,7 +115,7 @@ nav {
 
 .linkcreate a {
     font-family: 'kanit';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     text-decoration: none;
     color: white;
@@ -128,7 +127,6 @@ nav {
 }
 
 .imghero {
-    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,13 +161,12 @@ nav {
 }
 
 .menucard {
-    padding: 150px;
-    flex-wrap: wrap;
-    display: flex;
+    padding: 50px;
+    display: grid;
+    place-items: center;
     justify-content: center;
-    align-items: center;
-    column-gap: 70px;
-    row-gap: 70px;
+    grid-template-columns: repeat(3, 26%);
+    row-gap: 45px;
 }
 
 .card {
@@ -221,18 +218,17 @@ nav {
 
 .alltournament {
     padding-top: 70px;
-    padding-bottom: 150px;
+    padding-bottom: 20px;
     background: #142c1d;
 }
 
 .listtour {
-    padding: 200px;
-    display: flex;
+    padding: 50px;
+    display: grid;
+    place-items: center;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    row-gap: 75px;
-    column-gap: 75px;
+    grid-template-columns: repeat(3, 20%);
+    gap: 45px;
 }
 
 .cardtour {
@@ -241,8 +237,16 @@ nav {
     align-content: center;
     background-color: rgb(47, 66, 53);
     border-radius: 35px;
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 450px;
+}
+
+.imgtour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
 }
 
 .bodycard {
@@ -252,7 +256,7 @@ nav {
 }
 
 .bodycard h1 {
-    font-size: 24px;
+    font-size: 19px;
     font-family: 'kanit';
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -260,28 +264,27 @@ nav {
 
 .bodycard p {
     padding-top: 20px;
-    width: 320px;
+    width: 270px;
     font-family: 'kanit';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 13px;
     color: rgb(138, 138, 138);
 }
 
 .jointour {
-    height: 30px; 
-    width: 150px;
+    height: 17px; 
+    width: 100px;
     background-color: rgb(0, 128, 28);
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
 
 .jointour a {
     font-family: 'kanit';
     font-weight: 600;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
     color: rgb(14, 14, 14);
 }
@@ -299,36 +302,37 @@ nav {
 /* Creater Tournament Menu */
 
 .createtour {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: #142c1d;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    column-gap: 30px;
 }
 
 .headcreate h1 {
     font-family: 'kanit';
     font-weight: 800;
-    font-size: 60px;
+    font-size: 49px;
     color: rgb(0, 80, 0);
-    width: 500px;
+    width: 450px;
 }
 
 .headcreate p {
     padding-top: 25px;
     font-family: 'kanit';
     font-weight: 400;
-    font-size: 24px;
+    font-size: 14px;
     color: rgb(150, 150, 150);
-    width: 500px;
+    width: 300px;
 }
 
 .linkstart {
     margin-left: 50px;
     background-color: green;
-    width: 250px;
-    height: 50px;
+    width: 160px;
+    height: 30px;
     border-radius: 75px;
     margin-top: 25px;
     display: grid;
@@ -341,7 +345,7 @@ nav {
     color: rgb(27, 27, 27);
     font-family: 'kanit';
     font-weight: 500;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .linkstart:hover {
@@ -357,20 +361,20 @@ nav {
 
 .aboutus {
     background: #142c1d;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 
 .info {
-    display:grid;
+    display: grid;
     justify-content: center;
     align-items: center;
-    width: 900px;
-    height: 200px;
+    width: 650px;
+    height: 100px;
     background-color: rgb(46, 61, 46);
     border-radius: 200px;
 }
@@ -378,17 +382,18 @@ nav {
 .info h1 {
     font-family: 'kanit';
     font-weight: 700;
-    font-size: 45px;
+    font-size: 32px;
     margin-top: -30px;
     color: rgb(0, 88, 0);
+}
+
+.subscribeinfo {
     display: grid;
-    justify-content: center;
-    align-items: center;
+    place-content: center;
 }
 
 
 .formemail {
-    margin-top: -100px;
     display: flex;
     border-radius: 50px;
 }
@@ -396,25 +401,27 @@ nav {
 .email {
     font-family: 'kanit';
     font-weight: 600;
-    font-size: 24px;
+    font-size: 14px;
     color: rgb(134, 134, 134);
     padding-left: 50px;
     background-color: rgb(255, 255, 255);
     opacity: 30%;
-    height: 60px;
-    width: 450px;
+    height: 20px;
+    width: 250px;
     border-radius: 50px 0px 0px 50px;
+    z-index: 0;
 }
 
 .send {
     font-family: 'kanit';
     font-weight: 600;
-    font-size: 24px;
+    font-size: 14px;
     color: rgb(150, 150, 150);
     background-color: green;
-    height: 60px;
-    width: 250px;
+    height: 20px;
+    width: 150px;
     border-radius: 0px 50px 50px 0px;
+    z-index: 4;
 }
 
 .send:hover {
@@ -426,23 +433,24 @@ nav {
 /* About US End */
 
 .footer {
-    padding-top: 35px;
-    padding-bottom: 55px;
+    padding-top: 25px;
+    padding-bottom: 15px;
     background: #1e301f;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    column-gap: 250px;
     text-decoration: none;
 }
 
 .menufooter a {
     display: grid;
-    line-height: 40px;
+    line-height: 20px;
     text-decoration: none;
     color: rgb(133, 133, 133);
     font-family: 'kanit';
     font-weight: 600;
-    font-size: 16px;
+    font-size: 11px;
 }
 
 .menufooter a:hover {
@@ -450,7 +458,6 @@ nav {
 }
 
 .copyright {
-    margin-top: -50px;
     padding-bottom: 40px;
     background: #1e301f;
     display: flex;
@@ -461,7 +468,7 @@ nav {
 .copyright h3 {
     font-family: 'kanit';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     color: rgb(0, 88, 0);
 }
 
@@ -473,17 +480,17 @@ nav {
 .socialmedia h3, .menufooter h3 {
     font-family: 'kanit';
     font-weight: 600;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 .socialmedia a {
     display: grid;
-    line-height: 60px;
+    line-height: 30px;
     text-decoration: none;
     color: rgb(133, 133, 133);
     font-family: 'kanit';
     font-weight: 600;
-    font-size: 16px;
+    font-size: 11px;
 }
 
 .iconsosmed {
