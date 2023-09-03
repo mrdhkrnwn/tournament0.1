@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar, .hero {
+    background: rgb(14,47,26);
+}
+
+/* Header Start */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    height: 240px;
+}
+
+.navprofile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navprofile a {
+    text-decoration: none;
+    color: green;
+    font-family: 'kanit';
+    font-weight: 500;
+    font-size: 90px;
+}
+
+.menu a {
+    padding-right: 75px;
+    text-decoration: none;
+    color: white;
+    font-family: 'kanit';
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.menu a:hover {
+    color: green;
+}
+/* Header END */
+
+/* HERO SECTION START */
+
+
+.herosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.hero h1 {
+    font-family: 'kanit';
+    font-weight: 800;
+    font-size: 180px;
+    color: rgb(7, 7, 7);
+}
+
+.hero h1 a {
+    text-decoration: none;
+    color: green;
+}
+
+.golink {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.linktour {
+    background-color: green;
+    height: 145px;
+    width: 470px;
+    border-radius: 70px;
+}
+
+.linktour a {
+    font-family: 'kanit';
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    color: white;
+}
+
+.linktour:hover {
+    background-color: rgb(4, 165, 4);
+}
+
+.linkcreate {
+    border: solid 4px green;
+    height: 145px;
+    width: 470px;
+    border-radius: 70px;
+}
+
+.linkcreate a {
+    font-family: 'kanit';
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    color: white;
+}
+
+.linkcreate:hover {
+    border: none;
+    background-color: green;
+}
+
+.imghero {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HERO SECTION END */
+
+/* Populer Tournament Start */
+
+.main {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background: #142c1d;
+    box-shadow: 0px 20px 33px -2px rgba(14,47,26,0.46) inset;
+-webkit-box-shadow: 0px 20px 33px -2px rgba(14,47,26,0.46) inset;
+-moz-box-shadow: 0px 20px 33px -2px rgba(14,47,26,0.46) inset;
+}
+
+
+.headmain {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headmain h1 {
+    font-family: 'kanit';
+    font-weight: 800;
+    font-size: 160px;
+    color: rgb(1, 117, 1);
+}
+
+.menucard {
+    padding: 200px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 170px;
+    row-gap: 150px;
+}
+
+.card {
+    width: 1000px;
+    height: 900px;
+    background-color:  rgb(47, 66, 53);
+    display: grid;
+    place-items: center;
+    align-content: center;
+    border-radius: 45px;
+}
+
+.imagescard {
+    width: 800px;
+    height: 400px;
+}
+
+.roblox, .dota {
+    margin-top: -100px;
+    padding-left: 200px;
+}
+
+.maincard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincard img {
+    margin-right: 20px;
+}
+
+.maincard h2 {
+    font-family: 'kanit';
+    font-weight: 500;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.card p {
+    font-family: 'kanit';
+    font-weight: 400;
+    font-size: 30px;
+    width: 800px;
+    color: rgb(124, 124, 124);
+}
+
+/* Popoler Tournament End */
+
+/* List Tournament Start */
+
+.alltournament {
+    padding-top: 70px;
+    padding-bottom: 150px;
+    background: #142c1d;
+}
+
+.listtour {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 150px;
+    column-gap: 170px;
+}
+
+.cardtour {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    background-color: rgb(47, 66, 53);
+    border-radius: 35px;
+    width: 1000px;
+    height: 1200px;
+}
+
+.bodycard {
+    display: grid;
+    place-items: center;
+
+}
+
+.bodycard h1 {
+    font-size: 70px;
+    font-family: 'kanit';
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.bodycard p {
+    padding-top: 20px;
+    width: 820px;
+    font-family: 'kanit';
+    font-weight: 400;
+    font-size: 36px;
+    color: rgb(138, 138, 138);
+}
+
+.jointour {
+    margin-left: 490px;
+    margin-top: 50px;
+    height: 100px; 
+    width: 300px;
+    background-color: rgb(0, 128, 28);
+    border-radius: 50px;
+}
+
+.jointour a {
+    font-family: 'kanit';
+    font-weight: 600;
+    font-size: 54px;
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+
+.jointour:hover {
+    background-color: rgb(0, 192, 10);
+}
+
+.jointour a:hover {
+    color: white;
+}
+
+/* List Tournament End */
+
+/* Creater Tournament Menu */
+
+.createtour {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: #142c1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headcreate h1 {
+    font-family: 'kanit';
+    font-weight: 800;
+    font-size: 200px;
+    color: rgb(0, 80, 0);
+    width: 2000px;
+}
+
+.headcreate p {
+    padding-top: 25px;
+    font-family: 'kanit';
+    font-weight: 400;
+    font-size: 55px;
+    color: rgb(150, 150, 150);
+    width: 1000px;
+}
+
+.linkstart {
+    background-color: green;
+    width: 500px;
+    height: 100px;
+    border-radius: 75px;
+    margin-top: 75px;
+}
+
+.linkstart a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    font-family: 'kanit';
+    font-weight: 500;
+    font-size: 55px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkstart:hover {
+    background-color: rgb(0, 184, 0);
+}
+
+.linkstart a:hover {
+    color: white;
+}
+/* Creater Tournament End */
+
+/* About US Start  */
+
+.aboutus {
+    background: #142c1d;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 240px;
+    padding-bottom: 250px;
+}
+
+
+.info {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    width: 2500px;
+    height: 550px;
+    background-color: rgb(46, 61, 46);
+    border-radius: 200px;
+}
+
+.info h1 {
+    font-family: 'kanit';
+    font-weight: 700;
+    font-size: 150px;
+    margin-top: -30px;
+    color: rgb(0, 88, 0);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formemail {
+    margin-top: -100px;
+    display: flex;
+    border-radius: 50px;
+}
+
+.email {
+    font-family: 'kanit';
+    font-weight: 600;
+    font-size: 45px;
+    color: rgb(134, 134, 134);
+    padding-left: 50px;
+    background-color: rgb(255, 255, 255);
+    opacity: 30%;
+    height: 100px;
+    width: 1350px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.send {
+    font-family: 'kanit';
+    font-weight: 600;
+    font-size: 45px;
+    color: rgb(150, 150, 150);
+    background-color: green;
+    height: 100px;
+    width: 500px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.send:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(29, 43, 29);
+}
+
+/* About US End */
+
+.footer {
+    height: 800px;
+    background: #1e301f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menufooter a {
+    display: grid;
+    line-height: 100px;
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-family: 'kanit';
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.menufooter a:hover {
+    color: rgb(0, 88, 0);
+}
+
+.copyright {
+    margin-top: -50px;
+    padding-bottom: 40px;
+    background: #1e301f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright h3 {
+    font-family: 'kanit';
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(0, 88, 0);
+}
+
+.copyright a {
+    text-decoration: none;
+    color: rgb(113, 113, 247);
+}
+
+.socialmedia h3, .menufooter h3 {
+    font-family: 'kanit';
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.socialmedia a {
+    display: grid;
+    line-height: 100px;
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-family: 'kanit';
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.iconsosmed {
+    display: flex;
+    column-gap: 40px;
+}
+
+.iconsosmed a:hover {
+    color: rgb(0, 88, 0);
+}
